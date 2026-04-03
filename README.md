@@ -21,8 +21,9 @@ The project focuses on "Tiny LLMs"—models with small parameter counts that pun
 
 | Model | Status | Notes |
 | :--- | :--- | :--- |
-| **Qwen2.5 (Quantized)** | 🧪 Testing | Primary model for development; excellent reasoning for its size. |
-| **SmolLM2 (Quantized)** | 🧪 Testing | Evaluating for ultra-low resource environments. |
+| **Qwen3.5-0.8B-Q4_K_M** | ✅ Working | Working but size is 507 MB. (Might halucinate) |
+| **Qwen3-0.6B-Q4_K_S** | 🧪 Testing | Working, Size = 383MB. Need to remove thinking. (Might halucinate) |
+| **SmolLM2-135M-Q8** | 🧪 Testing | Didn't worked as of now. Size = 150MB |
 | **Llama 3.2 (1B)** | 📅 Roadmap | Planned for future benchmarking. |
 
 ---
